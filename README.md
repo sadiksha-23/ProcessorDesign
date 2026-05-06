@@ -15,6 +15,7 @@ This repository contains the hardware design and implementation of a single-cycl
 | 📁 `documentation/` | **Technical Design Reports** (ALU and Register File specifications) |
 | 📁 `hardware/` | **Logisim Circuit Files** (`.circ`) including the main CPU and sub-modules |
 | 📁 `tests/` | **Verification Programs** (Hexadecimal machine code for Program A, B, and C) |
+| 📁 `tools/` | **Logisim Executable** (Compatible version for immediate simulation) |
 
 ---
 
