@@ -1,4 +1,4 @@
-# 🚀 RISC-V 32-Bit Single-Cycle CPU
+# RISC-V 32-Bit Single-Cycle CPU
 ![Status](https://img.shields.io/badge/Status-In--Progress-orange) 
 ![Architecture](https://img.shields.io/badge/ISA-RV32I-blue)
 ![Tools](https://img.shields.io/badge/Tools-Logisim-green)
@@ -52,6 +52,6 @@ The processor is architected to support the following classes as defined in the 
 ---
 
 ## 📝 How to Use
-1. **Prerequisites:** Ensure you have the version of **Logisim** provided in the course files.
+1. **Prerequisites:** A compatible version of **Logisim** is included in the `/tools` directory. Download and run this file to ensure the `.circ` libraries load correctly.
 2. **Clone the Repo:** ```bash
    git clone [https://github.com/your-username/ProcessorDesign.git](https://github.com/your-username/ProcessorDesign.git)
