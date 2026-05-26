@@ -14,26 +14,20 @@ This repository contains the hardware design and implementation of a single-cycl
 | :--- | :--- |
 | 📁 `documentation/` | **Technical Design Reports** (ALU and Register File specifications) |
 | 📁 `hardware/` | **Logisim Circuit Files** (`.circ`) including the main CPU and sub-modules |
-| 📁 `tests/` | **Verification Programs** (Hexadecimal machine code for Program A, B, and C) |
+| 📁 `tests/` | **Verification Programs** (Hexadecimal machine code for five different programs) |
 | 📁 `tools/` | **Logisim Executable** (Compatible version for immediate simulation) |
 
 ---
 
-## 🛠️ Implementation Roadmap (CSC 364 Tasks)
+## 🛠️ Implementation Roadmap
 
-### **✅ Completed: Datapath & Core Modules**
+### **✅ Completed:**
 * **32-Bit ALU:** Fully implemented and validated for arithmetic and logical operations (ADD, SUB, AND, OR, XOR, SLT) per **Table 6** of the project specifications.
 * **Integrated Data Path:** Engineered a unified interface between the **32x32-bit Register File** and **Data Memory**. This ensures synchronous write-back and streamlined Load/Store execution.
 * **Field Decoding:** Implemented hardware slicing for the instruction bus to extract Opcode, rd, rs1, rs2, funct3, and funct7 fields.
-
-### **🏗️ In Progress: Control & Logic**
-* **Main Control Unit:** Designing the logic to generate the 10+ concurrent control signals (RegWrite, ALUSrc, MemRead, MemWrite, etc.) required for the single-cycle execution of RV32I.
-* **Immediate Generator (ImmGen):** Constructing the sign-extension and reconstruction logic for I, S, B, and J formats.
-* **PC Update Logic:** Building the multiplexer system to handle sequential execution (PC+4) alongside PC-relative branches and jumps.
-
-> [!IMPORTANT]
-> ### **Upcoming Milestone: End-to-End Validation**
-> The final phase involves executing the three mandatory test programs (A, B, and C) to verify register write-back, memory alignment, and branch decision logic accuracy.
+* **Main Control Unit:** Designed the logic to generate the 10+ concurrent control signals (RegWrite, ALUSrc, MemRead, MemWrite, etc.) required for the single-cycle execution of RV32I.
+* **Immediate Generator (ImmGen):** Constructed the sign-extension and reconstruction logic for I, S, B, and J formats.
+* **PC Update Logic:** Built the multiplexer system to handle sequential execution (PC+4) alongside PC-relative branches and jumps.
 
 ---
 
