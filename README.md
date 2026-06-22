@@ -49,4 +49,4 @@ The processor is architected to support the following classes as defined in the 
 ## 📝 How to Use
 1. **Prerequisites:** A compatible version of **Logisim** is included in the `/tools` directory. Download and run this file to ensure the `.circ` libraries load correctly.
 2. **Clone the Repo:** ```bash
-   git clone [https://github.com/your-username/ProcessorDesign.git](https://github.com/your-username/ProcessorDesign.git)
+   git clone [https://github.com/sadiksha-23/ProcessorDesign.git](https://github.com/sadiksha-23/ProcessorDesign.git)
